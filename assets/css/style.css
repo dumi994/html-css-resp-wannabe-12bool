@@ -72,5 +72,20 @@ img {
   clear: both;
 }
 
+@media screen and (max-width:767px){
+  #lezioni>.row{
+    background-color:lightgrey;
+    padding:20px;
+    margin:0 0 15px 0;
+  }
 
+  #why>.row{
+    background-color:lightgrey;
+    margin:5px 0;
+  }
+
+  *{
+    line-height: 25px;
+  }
+}
 
