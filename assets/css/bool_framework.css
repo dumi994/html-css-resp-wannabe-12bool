@@ -23,6 +23,14 @@
    /*  background-color:lightgrey; */
 }
 
+.margin-l-100{
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.margin-l-200{
+    margin-left: 200px;
+}
 
 /* \\\\\\ DEBUG \\\\\\ */
 
@@ -373,6 +381,7 @@
     .col-lg-12{
         width: calc((100% / 12)*12);
     }
+
 
     /* offset */
     .col-lg-offset-1{
